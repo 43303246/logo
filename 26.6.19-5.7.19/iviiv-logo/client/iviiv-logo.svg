@@ -1,0 +1,22 @@
+<svg visibility="hidden" class="iviiv-logo" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<pattern id="iviiv-f77"></pattern>
+		<pattern id="iviiv-7f7"></pattern>
+		<pattern id="iviiv-77f"></pattern>
+		<pattern id="iviiv-ff0"></pattern>
+	</defs>
+	<mask id="ring-mask">
+		<rect/>
+		<rect x="0" y="0" width="20" height="20" fill="black"/>
+		<path/>
+		<path/>
+		<path/>
+	</mask>
+	<g mask="url(#ring-mask)" transform="rotate(25 21 21)">
+		<path/>
+		<path/>
+		<path/>
+	</g>
+	<path/>
+	<script type="text/javascript" href="iviiv-logo.js"></script>
+</svg>

@@ -1,0 +1,106 @@
+<html lang="en">
+	<head>
+		<style>
+		body {
+			margin: 0;
+			padding: 0;
+			-webkit-hyphens: auto;
+			-moz-hyphens: auto;
+			-ms-hyphens: auto;
+			hyphens: auto;
+			background: #cfc;
+		}
+		body {
+			display: grid;
+			grid-gap: 16px;
+			margin-left: 50%;
+			transform: translateX(-50%);
+		}
+		body>div {
+			padding: 16px;
+			background: #eee;
+		}
+		@media screen and (max-width: 656px) {
+			body {
+				width: 320px;
+			}
+		}
+
+		@media screen and (min-width: 656px) {
+			body {
+				grid-template-columns: repeat(2, 1fr);
+				width: 656px;
+			}
+
+			#block1 {
+				order: 0;
+			}
+
+			#block2 {
+				grid-column: span 2;
+				order: 2;
+			}
+
+			#block3 {
+				order: 1;
+			}
+
+			#block4 {
+				order: 3
+			}
+
+			#block5 {
+				order: 4;
+			}
+
+			#block6 {
+				grid-column: span 2;
+				order: 5;
+			}
+		}
+
+		@media screen and (min-width: 992px) {
+			body {
+				grid-template-columns: repeat(3, 1fr);
+				width: 992px;
+			}
+
+			#block1 {
+				order: 0;
+			}
+
+			#block2 {
+				grid-row: span 4;
+				order: 1;
+			}
+
+			#block3 {
+				order: 2;
+			}
+
+			#block4 {
+				order: 3;
+			}
+
+			#block5 {
+				order: 4;
+			}
+
+			#block6 {
+				order: 5;
+				grid-column: span 3;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="block1">
+			<object data="iviiv-logo.svg" type="image/svg+xml"></object>
+	</div>
+	<div id="block2">2</div>
+	<div id="block3">3</div>
+	<div id="block4">4</div>
+	<div id="block5">5</div>
+	<div id="block6">6</div>
+</body>
+</html>

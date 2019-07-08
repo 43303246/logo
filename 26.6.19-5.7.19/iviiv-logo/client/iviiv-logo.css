@@ -1,0 +1,46 @@
+.iviiv-logo {
+	height:100%;
+	width:100%;
+	stroke:#aaaaaa;
+	fill:none;
+	stroke-linejoin:round;
+	stroke-linecap:round;
+	cursor:pointer;
+}
+.iviiv-logo mask rect {
+	fill:#fff;
+	stroke:#fff;
+	width:100%;
+	height:100%;
+}
+.iviiv-logo mask path {
+	stroke-width: 4px;
+	fill:#000;
+	stroke:#000;
+}
+
+.iviiv-logo:hover #iviiv-77f {
+	fill:#77f;
+}
+.iviiv-logo:hover #iviiv-f77 {
+	fill:#f77;
+}
+.iviiv-logo:hover #iviiv-7f7 {
+	fill:#7f7;
+}
+.iviiv-logo:hover #iviiv-ff0 {
+	fill: #ff0
+}
+
+@media screen and (max-width: 60px) {
+	#iviiv-f77, 
+	#iviiv-7f7, 
+	#iviiv-77f, 
+	#iviiv-ff0,
+	.iviiv-logo:hover #iviiv-f77,
+	.iviiv-logo:hover #iviiv-7f7,
+	.iviiv-logo:hover #iviiv-77f,
+	.iviiv-logo:hover #iviiv-ff0 {
+		fill:#000;stroke:#000
+	}
+}
